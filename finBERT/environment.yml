@@ -1,0 +1,19 @@
+# conda env update --file environment.yml
+name: finbert
+channels:
+  - huggingface
+  - pytorch
+  - conda-forge
+dependencies:
+  - jupyter
+  - notebook
+  - pandas
+  - numpy>=1.20.0
+  - nltk
+  - tqdm
+  - transformers
+  - joblib
+  - scikit-learn
+  - spacy
+  - pytorch
+  - textblob
